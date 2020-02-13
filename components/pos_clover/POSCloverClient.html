@@ -1,0 +1,70 @@
+<!DOCTYPE f8component>
+<definition>
+  { "id": "pos_clover", "label": "POSClover", "className": "POSCloverServer",
+  "renderable": true, "dependencies": [ "react-core" ] }
+</definition>
+
+<style>
+  /* @import url('https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap'); */
+
+  :root,
+  html {
+    --fontsBase: "Montserrat", sans-serif !important;
+
+    --colorWhiteBase: #ffffff;
+    --colorWhiteDark: #f4f6f9;
+    --colorBlackBase: #151a37;
+
+    --colorRedLightest: #ff8b95;
+    --colorRedLight: #fd5f6d;
+    --colorRedBase: #f24655;
+    --colorRedDark: #d83442;
+    --colorRedDarkest: #870017;
+
+    --colorBlueLightest: #9bbbff;
+    --colorBlueLight: #5f92ff;
+    --colorBlueBase: #3172ff;
+    --colorBlueDark: #1a57da;
+    --colorBlueDarkest: #0b3080;
+
+    --colorGreenLightest: #64ffc1;
+    --colorGreenLight: #20ca86;
+    --colorGreenBase: #18b375;
+    --colorGreenDark: #10a066;
+    --colorGreenDarkest: #0a8d59;
+
+    --colorGrayLightest0: #dcdce9;
+    --colorGrayLightest: #cfcfda;
+    --colorGrayLight: #b0b1c0;
+    --colorGrayBase: #aaacbe;
+    --colorGrayDark: #9496a7;
+    --colorGrayDarkest: #818394;
+
+    --black: #161d4c;
+    --white: #ffffff;
+    --blueGray0: #f4f6f9;
+    --blueGray1: #eff2f6;
+    --blueGray2: #dbe0e9;
+    --blue: #3172ff;
+    --darkBlue: #1953d1;
+    --paleBlue: #545b89;
+    --red: #d11919;
+    --darkRed: #d11919;
+    --green: #19d163;
+    --darkGreen: #19d163;
+    --depth0: 0px 2px 8px rgba(0, 0, 0, 0.04);
+    --depth1: 2px 0px 16px rgba(0, 0, 0, 0.05);
+    --fonts: "Montserrat", sans-serif !important;
+
+    --grayscale0: #f4f6f9;
+    --grayscale1: #eff2f6;
+    --grayscale2: #dbe0e9;
+    --brand: #3172ff;
+    --brandDark: #1953d1;
+    --brandPale: #545b89;
+  }
+</style>
+<script>
+  var { POSClover } = require("pos_clover/POSClover");
+  exports.component = ComponentUI.createReactComponent(POSClover);
+</script>

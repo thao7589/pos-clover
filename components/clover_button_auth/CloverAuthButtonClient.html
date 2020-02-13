@@ -1,0 +1,65 @@
+<!DOCTYPE f8component>
+
+<definition>
+    {
+        "id": "clover_auth_button",
+        "label": "Clover Authorization Button",
+        "className": "CloverAuthButtonServer",
+        "renderable": "true"
+    }
+</definition>
+
+<attributes></attributes>
+
+<style>
+    body {
+        background: gray;
+    }
+
+    .cls-1 {
+        fill: #babbc1;
+        stroke: #babbc1;
+    }
+
+    .cls-2 {
+        fill: #fff;
+        font-size: 18px;
+        font-family: SourceSansPro-Regular, Montserrat;
+    }
+
+    .cls-3 {
+        stroke: none;
+    }
+
+    .cls-4 {
+        fill: none;
+    }
+</style>
+
+<template name="Auth">
+    <svg xmlns="http://www.w3.org/2000/svg" width="185" height="50" viewBox="0 0 185 50">
+        <defs>
+            
+        </defs>
+        <g id="AuthButton" data-name="AuthButton" transform="translate(-295 2043)">
+            <g id="Rectangle_166" data-name="Rectangle 166" class="cls-1" transform="translate(295 -2043)">
+                <rect class="cls-3" width="185" height="50" rx="4"/>
+                <rect class="cls-4" x="0.5" y="0.5" width="184" height="49" rx="3.5"/>
+            </g>
+            <text id="Authorize" class="cls-2" transform="translate(384 -2011)">
+                <tspan x="-36.09" y="0">
+                    <a href="<%== data.url%>" target="_blank">Authorize</a>
+                </tspan>
+            </text>
+        </g>
+    </svg>
+</template>
+
+<script>
+    exports.component = ComponentUI.create({
+        onLoad: function(data) {
+            this.template("clover_auth_button/Auth", this.container, data, this.attributes);
+        },
+        className: "CloverAuthButtonClient"
+    });
+</script>
