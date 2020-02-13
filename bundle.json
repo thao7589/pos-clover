@@ -1,0 +1,23 @@
+{
+   "autoload": [ ],
+   "bundle_name": "pos_clover_thao",
+   "dependencies": [
+      {
+         "id": "ds.base",
+         "version": "1.13.0"
+      }
+   ],
+   "hidden_bundle": "0",
+   "icon": "fontawesome:usd",
+   "icon_color": "#0080ff",
+   "id": "dev.pos_clover_thao",
+   "page_banner": "",
+   "parametrics_form": null,
+   "platform_version": "",
+   "schema_version": "0.0",
+   "shell_layout": null,
+   "theme": "",
+   "title": "POS-Clover-Thao",
+   "vendor": "dev",
+   "version": "0.1.0"
+}

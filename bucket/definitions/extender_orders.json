@@ -1,0 +1,17 @@
+{
+    "bucket_definition": {
+        "n842jz4y": {
+            "attributes": {
+                "rows": "12"
+            },
+            "id": "n842jz4y",
+            "labels": {
+                "label": "Extender Orders",
+                "labelp": "Extender Orderses"
+            },
+            "name": "extender_orders",
+            "schema_tag": "",
+            "type": "script"
+        }
+    }
+}

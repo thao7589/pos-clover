@@ -1,0 +1,17 @@
+{
+    "bucket_definition": {
+        "csg3p49h": {
+            "attributes": {
+                "rows": "12"
+            },
+            "id": "csg3p49h",
+            "labels": {
+                "label": "Clover Employee",
+                "labelp": "clover_employees"
+            },
+            "name": "clover_employee",
+            "schema_tag": "",
+            "type": "script"
+        }
+    }
+}

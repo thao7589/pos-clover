@@ -1,0 +1,17 @@
+{
+    "bucket_definition": {
+        "3mh1m8zw": {
+            "attributes": {
+                "rows": "12"
+            },
+            "id": "3mh1m8zw",
+            "labels": {
+                "label": "Extender PSQL",
+                "labelp": "Extender PSQLs"
+            },
+            "name": "extender_psql",
+            "schema_tag": "",
+            "type": "script"
+        }
+    }
+}

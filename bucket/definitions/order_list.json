@@ -1,0 +1,17 @@
+{
+    "bucket_definition": {
+        "k5cgz2x8": {
+            "attributes": {
+                "rows": "12"
+            },
+            "id": "k5cgz2x8",
+            "labels": {
+                "label": "Order List",
+                "labelp": "Order Lists"
+            },
+            "name": "order_list",
+            "schema_tag": "",
+            "type": "script"
+        }
+    }
+}

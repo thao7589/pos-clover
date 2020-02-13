@@ -1,0 +1,17 @@
+{
+    "bucket_definition": {
+        "wx1zhpbq": {
+            "attributes": {
+                "rows": "12"
+            },
+            "id": "wx1zhpbq",
+            "labels": {
+                "label": "Clover Inventory List",
+                "labelp": "Clover Inventory Lists"
+            },
+            "name": "clover_inventory_list",
+            "schema_tag": "",
+            "type": "script"
+        }
+    }
+}
